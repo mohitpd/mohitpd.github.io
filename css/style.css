@@ -288,14 +288,22 @@ h3.my-profession {
   color: var(--text-black-900);
   margin-bottom: 15px;
 }
-.about .about-content p {
+.about .about-content ul {
+  list-style-type: square;
   font-size: 16px;
   color: var(--text-black-900);
   line-height: 24px;
+  padding-left: 14px;
 }
 .about .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
+}
+.about .personal-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  margin-bottom: 15px;
 }
 .about .personal-info .info-item {
   flex: 0 0 50%;
@@ -325,6 +333,12 @@ h3.my-profession {
 .about .skills {
   flex: 0 0 40%;
   max-width: 40%;
+}
+.about .skills h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  margin-bottom: 15px;
 }
 .about .skills .skill-item {
   padding: 8px 12px;
@@ -404,7 +418,14 @@ h3.my-profession {
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: capitalize;
+  color: var(--skin-color);
+}
+.about .timeline ul {
+  list-style-type: square;
+  font-size: 16px;
   color: var(--text-black-900);
+  line-height: 24px;
+  padding-left: 14px;
 }
 .about .timeline .timeline-text {
   line-height: 25px;
